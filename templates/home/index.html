@@ -1,0 +1,163 @@
+{% extends "base.html" %} {% block main %} {% load static %}
+<div class="main">
+  <div class="top-banner">
+    <div class="ui container">
+      <div class="content">
+        <div class="text">
+          <h2>WELCOME TO BEAUTIFUL BANGLADESH</h2>
+        </div>
+        <button class="ui inverted button">Explore</button>
+      </div>
+    </div>
+  </div>
+  <section class="top-destination">
+    <div class="ui container">
+      <div class="sec-title">
+        <h2>Top destinations</h2>
+        <span>top destination</span>
+      </div>
+      <div class="ui three column grid">
+        <div class="column">
+          <a class="dest" href="#bandarban">
+            <img src="{% static 'images/Jaflong-Sylhet.jpg' %}" alt="" />
+            <span class="explore">Explore </span>
+          </a>
+          <div class="loc-det">
+            <div class="loc">
+              <span
+                ><i class="map marker alternate icon"></i>Jaflong, Sylhet</span
+              >
+            </div>
+            <div class="loc-love">
+              <span
+                ><a href=""><i class="heart outline icon"></i></a>2</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="dest" href="#bandarban"
+            ><img src="{% static 'images/boga-lake.jpg' %}" alt="" /><span
+              class="explore"
+              >Explore</span
+            ></a
+          >
+          <div class="loc-det">
+            <div class="loc">
+              <span
+                ><i class="map marker alternate icon"></i>Bogalake,
+                Bandarban</span
+              >
+            </div>
+            <div class="loc-love">
+              <span
+                ><a href=""><i class="heart outline icon"></i></a>2</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="dest" href="#bandarban"
+            ><img src="{% static 'images/niligir.jpg' %}" alt="" /><span
+              class="explore"
+              >Explore</span
+            ></a
+          >
+          <div class="loc-det">
+            <div class="loc">
+              <span
+                ><i class="map marker alternate icon"></i>Nilgiri,
+                Bandarban</span
+              >
+            </div>
+            <div class="loc-love">
+              <span
+                ><a href=""><i class="heart outline icon"></i></a>2</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="dest" href="#bandarban"
+            ><img
+              src="{% static 'images/keokradong-6-1024x550.jpg' %}"
+              alt=""
+            /><span class="explore">Explore</span></a
+          >
+          <div class="loc-det">
+            <div class="loc">
+              <span
+                ><i class="map marker alternate icon"></i>Keokradong,
+                Sylhet</span
+              >
+            </div>
+            <div class="loc-love">
+              <span
+                ><a href=""><i class="heart outline icon"></i></a>2</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="dest" href="#bandarban"
+            ><img
+              src="{% static 'images/03-Aug-2019_Floating-Guava-Market_Bhimruli_Jhalokathi_Mavic-2-Pro_00015-scaled.jpg' %}"
+              alt=""
+            /><span class="explore">Explore</span></a
+          >
+          <div class="loc-det">
+            <div class="loc">
+              <span
+                ><i class="map marker alternate icon"></i>Floating Market,
+                Swarupkathi</span
+              >
+            </div>
+            <div class="loc-love">
+              <span
+                ><a href=""><i class="heart outline icon"></i></a>2</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="dest" href="#bandarban"
+            ><img
+              src="{% static 'images/4ba59fbe14c9e7263f8a302d7cdaa5ec5bbd8f88.jpg' %}"
+              alt=""
+            /><span class="explore">Explore</span></a
+          >
+          <div class="loc-det">
+            <div class="loc">
+              <span
+                ><i class="map marker alternate icon"></i>Kuakata,
+                Barishal</span
+              >
+            </div>
+            <div class="loc-love">
+              <span
+                ><a href=""><i class="heart outline icon"></i></a>2</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="enjoy-travelling">
+    <div class="ui equal wide container">
+      <div class="ui grid">
+        <div class="two column row">
+          <div class="column">
+            <p class="enjoy-text">Enjoy your stay in Bangladesh</p>
+          </div>
+          <div class="column btn">
+            <a href="#"
+              ><button class="ui inverted button">Find a guide</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock %}

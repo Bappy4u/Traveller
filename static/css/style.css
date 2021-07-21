@@ -1,0 +1,207 @@
+.main-menu {
+  background: #2b2b2b !important;
+  color: #fff;
+}
+
+.main-menu a {
+  color: #fff !important;
+  border: none !important;
+}
+
+.main {
+  font-family: "Roboto", sans-serif;
+  margin-top: 200px;
+}
+
+.main .content {
+  padding: 20% 0 20% 0;
+  color: #fff;
+}
+
+.main .content h2 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.main .content button {
+  width: 12%;
+}
+
+.main .top-banner {
+  background: url("../images/5e8dd6fc7dd04d001740f943.jpeg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+section.top-destination .sec-title {
+  position: relative;
+}
+
+section.top-destination .sec-title h2 {
+  position: relative;
+  z-index: 1;
+  margin-top: 15%;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+section.top-destination .sec-title span {
+  font-size: 110px;
+  -webkit-transform: translate3d(0px, -10.5198%, 0px);
+          transform: translate3d(0px, -10.5198%, 0px);
+  position: absolute;
+  bottom: 100%;
+  z-index: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #f7f7f7;
+  margin-left: -93px;
+  font-weight: 700;
+}
+
+section.top-destination .column {
+  margin-bottom: 30px;
+}
+
+section.top-destination .column .loc-det {
+  margin: 0 0 20px 0;
+}
+
+section.top-destination .column .loc-det .loc {
+  display: inline-block;
+  width: 70%;
+}
+
+section.top-destination .column .loc-det .loc-love {
+  display: inline-block;
+  text-align: right;
+  width: 29%;
+}
+
+section.top-destination .column .dest {
+  overflow: hidden;
+}
+
+section.top-destination .column .dest::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale3d(0.5, 0.5, 0.5);
+          transform: scale3d(0.5, 0.5, 0.5);
+}
+
+section.top-destination .column .dest:hover .explore {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+section.top-destination .column .dest:hover::after {
+  opacity: 0.5;
+  -webkit-transform: scale3d(0.93, 0.92, 0.92);
+          transform: scale3d(0.93, 0.92, 0.92);
+}
+
+section.top-destination .column .dest img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+section.top-destination .column .dest .explore {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 50%;
+  -webkit-transform: translateY(-50%) !important;
+          transform: translateY(-50%) !important;
+  top: 50%;
+  -webkit-transform: translateX(-50%) !important;
+          transform: translateX(-50%) !important;
+  text-align: center;
+  line-height: 40px;
+  background: #ad9463;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+          transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+  -webkit-transform: scale3d(0.5, 0.5, 0.5);
+          transform: scale3d(0.5, 0.5, 0.5);
+  font-size: 22px;
+  z-index: 2;
+}
+
+section.top-destination img {
+  width: 100%;
+}
+
+.enjoy-travelling {
+  background: #71a5e2;
+  padding: 80px 0;
+}
+
+.enjoy-travelling .enjoy-text {
+  font-size: 30px;
+  font-family: "Kaushan Script", cursive;
+  color: #fff;
+}
+
+.enjoy-travelling .btn {
+  text-align: center;
+}
+
+footer {
+  background: #2b2b2b;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+
+footer .copyright .heart {
+  color: red;
+}
+
+footer .social {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+footer a {
+  color: #c9dff5;
+}
+
+footer .github {
+  font-size: 22px;
+}
+
+.all-guide .card .description div {
+  display: inline-block;
+}
+
+.all-guide .card .description .completed-trip {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */

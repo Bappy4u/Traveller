@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveller</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <header>
+      <div class="main-menu fixed ui huge menu">
+        <div class="ui container">
+          <a class="active item">Home</a>
+          <a class="item">Destinations</a>
+          <a class="item">All Travel Guides</a>
+          <a class="item">Become a Guide</a>
+          <a class="item">Find Guide</a>
+          <div class="right menu">
+            <div class="ui dropdown item">
+              Language <i class="dropdown icon"></i>
+              <div class="menu">
+                <a class="item">English</a>
+                <a class="item">Russian</a>
+                <a class="item">Spanish</a>
+              </div>
+            </div>
+            <div class="item">
+              <div class="ui primary button">Sign Up</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
+
+{% block main %}{% endblock %}
+
+    <footer>
+      <div class="ui container">
+        <div class="copyright">
+          Made with <i class="ui heart icon"></i> © <a href="">Bappy</a>
+        </div>
+        <div class="social">
+          <a class="github" href="https://github.com/Bappy4u"
+            ><i class="github icon"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+<script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
+      integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
+      crossorigin="anonymous"
+    ></script>
+<script src="{% static 'js/index.js' %}"></script>
+
+
+  </body>
+</html>

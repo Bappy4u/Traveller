@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block main %} {% load static %}
+<div class="main all-guide">
+  <div class="ui container">
+     <div class="ui card">
+        <div class="image">
+          <img src="{% static 'images/avatar.png' %}">
+        </div>
+        <div class="content">
+          <div class="header">Sumon Barua</div>
+          <div class="description">
+            <div class="location">
+               <i class="map pin icon"></i>
+              Boga Lake
+            </div>
+
+            <div class="completed-trip">
+              <i class="street view icon"></i> Guided 3 trips
+            </div>
+
+            </div>
+        </div>
+        <div class="ui two bottom attached buttons">
+          <div class="ui button">
+            <i class="heart outline icon"></i>
+            2 likes
+          </div>
+          <div class="ui primary button">
+            <i class="calendar check outline icon"></i>
+            Book Now
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}
